@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="rps.css">
+  <script src="rps.js"></script>
+</head>
+
+<body>
+  <div class="game">
+    <h1>Rock · Paper · Scissors</h1>
+
+    <div class="score-box">
+      <div class="score">
+        <span>You</span>
+        <span id="user-score">0</span>
+      </div>
+      <div class="score">
+        <span>Computer</span>
+        <span id="cpu-score">0</span>
+      </div>
+    </div>
+
+    <div class="choices">
+        <button id="rock" onclick="processGame('✊')">✊</button>
+        <button id="paper" onclick="processGame('✋')">✋</button>
+        <button id="scissor" onclick="processGame('✌️')">✌️</button>
+    </div>
+
+  </div>
+</body>
+</html>

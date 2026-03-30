@@ -1,0 +1,48 @@
+body {
+        font-family: Arial, sans-serif;
+        background: #0a192f;
+        color: #e6f1ff;
+        text-align: center;
+        padding: 30px;
+    }
+    h1 { color: #64ffda; }
+
+    #word {
+        font-size: 32px;
+        letter-spacing: 10px;
+        margin: 20px 0;
+    }
+
+    #lives {
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: #ff6b6b;
+    }
+
+    #hint {
+        color: #8892b0;
+        margin-bottom: 20px;
+    }
+
+    .letters button {
+        margin: 5px;
+        padding: 10px 14px;
+        border: none;
+        border-radius: 4px;
+        background: #112240;
+        color: #e6f1ff;
+        cursor: pointer;
+    }
+
+    .letters button:disabled {
+        background: #1c2e45;
+        color: #657990;
+        cursor: not-allowed;
+    }
+
+    #message {
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #64ffda;
+    }
